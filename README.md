@@ -1,7 +1,8 @@
 # Election_Analysis
 
 ## Project Overview
-'Explain purpose of thise election audit analysis'
+
+The purpose of this election audit was to determine the amount of votes cast in each county, the percentage of total votes cast, each candidate's total votes and percentage of votes and the ultimately the election winner. 
  
 ## Election-Audit Results
 
@@ -22,15 +23,10 @@ Example of code: election_txt = (f"{county}: {vote_percentage: .1f}% ({total_vot
 * Charles Casper Stockham received 85,213 votes which accounted for 23% of total votes. Diana DeGette received 272,892 votes which accounted for 73.8% of total votes. Raymon Anthony Doane received 11,606 votes which accounted for 3.1% of total votes.
 
 Example of code: for candidate_name in candidate_votes:
-
-        # Retrieve vote count and percentage
         votes = candidate_votes.get(candidate_name)
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-
-        # Print each candidate's voter count and percentage to the
-        # terminal.
         print(candidate_results)
         
 * Diana DeGette won this congressional election.
