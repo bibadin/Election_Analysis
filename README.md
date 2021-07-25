@@ -32,6 +32,3 @@ Example of code: for candidate_name in candidate_votes:
 * Diana DeGette won this congressional election.
   * Diana DeGette's total amount of votes was 272,892.
   * She had 73.8% of the total votes.
-
-## Election-Audit Summary
-'Provide a business proposal to the election commission on how this script can be used with some modifications for any election.' 'Give 2 examples of how this script can be modified to be used for other elections'
